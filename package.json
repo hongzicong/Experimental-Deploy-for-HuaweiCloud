@@ -1,0 +1,18 @@
+{
+  "name": "experiment-huaweicloud-deploy",
+  "version": "1.0.0",
+  "description": " ",
+  "main": "deploy.js",
+  "scripts": {
+    "start": "node deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "@huaweicloud/huaweicloud-sdk-core": "^3.0.24-beta",
+    "@huaweicloud/huaweicloud-sdk-ecs": "^3.0.24-beta"
+  },
+  "devDependencies": {}
+}

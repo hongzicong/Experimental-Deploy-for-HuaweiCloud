@@ -1,0 +1,35 @@
+[
+  {
+    "server":{
+      "count": 1,
+      "flavorRef": "s3.large.2",
+      "imageRef": "cbe0df31-1150-488a-a9b2-612c745e1be0",
+      "name": "newserver",
+      "key_name": "KeyPair",
+      "nics": [
+        {
+          "subnet_id": "eeadfd29-70cf-42d2-ac7e-cb50b4fce76c"
+        }
+      ],
+      "publicip":{
+        "eip":{
+          "iptype": "5_bgp",
+          "bandwidth":{
+             "size": 100,
+             "sharetype": "PER"
+          }
+        }
+      },
+      "data_volumes": [
+        {
+          "volumetype": "SAS",
+          "size": 100
+        }
+      ],
+      "root_volume": {
+        "volumetype": "SAS"
+      },
+      "vpcid": "d65e81d5-4e5d-4a35-bf1c-9760401ba9d7"
+    }
+  }
+]
